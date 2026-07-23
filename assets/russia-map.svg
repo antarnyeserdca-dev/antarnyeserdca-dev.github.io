@@ -1,0 +1,40 @@
+<svg width="720" height="900" viewBox="0 0 720 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="900" fill="#143234"/>
+  <g opacity=".1" stroke="#EDF5F6">
+    <path d="M0 120H720M0 240H720M0 360H720M0 480H720M0 600H720M0 720H720"/>
+    <path d="M120 0V900M240 0V900M360 0V900M480 0V900M600 0V900"/>
+  </g>
+  <circle cx="570" cy="190" r="190" fill="#224646" opacity=".45"/>
+  <circle cx="144" cy="714" r="220" fill="#224646" opacity=".34"/>
+  <path d="M61 425L91 380L139 369L161 322L212 326L247 291L299 307L325 270L364 284L400 257L447 274L479 244L513 272L566 264L585 301L644 313L674 353L642 386L668 428L623 449L611 492L570 498L548 532L503 515L476 554L426 540L393 565L355 535L312 559L282 525L239 539L217 497L171 508L155 467L105 472L61 425Z" fill="#EDF5F6" fill-opacity=".08" stroke="#EDF5F6" stroke-width="3"/>
+  <path d="M115 418C218 385 280 384 375 407C463 428 544 408 632 361" stroke="#D5B38E" stroke-width="2" stroke-dasharray="7 11" opacity=".7"/>
+  <g fill="#D5B38E" stroke="#143234" stroke-width="5">
+    <circle cx="134" cy="417" r="13"/>
+    <circle cx="218" cy="386" r="13"/>
+    <circle cx="304" cy="403" r="13"/>
+    <circle cx="392" cy="426" r="13"/>
+    <circle cx="485" cy="414" r="13"/>
+    <circle cx="580" cy="383" r="13"/>
+  </g>
+  <g fill="#EDF5F6">
+    <circle cx="162" cy="461" r="7"/>
+    <circle cx="264" cy="466" r="7"/>
+    <circle cx="350" cy="363" r="7"/>
+    <circle cx="445" cy="468" r="7"/>
+    <circle cx="533" cy="335" r="7"/>
+    <circle cx="624" cy="426" r="7"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <text x="62" y="104" fill="#D5B38E" font-size="16" font-weight="700" letter-spacing="4">ГЕОГРАФИЯ RUBKOFF</text>
+    <text x="62" y="150" fill="#EDF5F6" font-size="30" font-weight="400">Строим по всей России</text>
+    <g transform="translate(62 664)">
+      <rect width="596" height="150" rx="2" fill="#EDF5F6" fill-opacity=".06" stroke="#EDF5F6" stroke-opacity=".22"/>
+      <text x="30" y="42" fill="#EDF5F6" fill-opacity=".62" font-size="13" letter-spacing="2">КАРТА ОБЪЕКТОВ</text>
+      <circle cx="38" cy="87" r="8" fill="#D5B38E"/>
+      <text x="58" y="93" fill="#EDF5F6" font-size="16">Активные стройки</text>
+      <circle cx="270" cy="87" r="6" fill="#EDF5F6"/>
+      <text x="287" y="93" fill="#EDF5F6" font-size="16">Готовые дома</text>
+      <text x="30" y="126" fill="#EDF5F6" fill-opacity=".55" font-size="13">Нажмите на точку, чтобы открыть объект</text>
+    </g>
+  </g>
+</svg>
