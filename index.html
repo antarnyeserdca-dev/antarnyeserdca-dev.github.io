@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#143234" />
+    <meta
+      name="description"
+      content="Интерактивная презентация предложений по развитию корпоративного сайта РУБКОФФ."
+    />
+    <title>РУБКОФФ — предложения по развитию сайта</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="presentation">
+      <div class="ambient" id="ambient" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+
+      <header class="topbar">
+        <a
+          class="brand"
+          href="https://rubkoff.ru/"
+          aria-label="Перейти на сайт РУБКОФФ"
+        >
+          <img src="/assets/logo.svg" alt="РУБКОФФ" />
+        </a>
+
+        <div class="topbar__meta">
+          <span>План развития сайта</span>
+          <span class="topbar__dot"></span>
+          <span>2026</span>
+        </div>
+
+        <div class="counter" id="counter" aria-live="polite">
+          <span id="counter-current">01</span>
+          <i></i>
+          <span>07</span>
+        </div>
+      </header>
+
+      <section
+        class="stage"
+        id="stage"
+        aria-roledescription="карусель"
+        aria-label="Семь предложений по развитию сайта"
+      >
+        <div class="stage__intro">
+          <p class="eyebrow">РУБКОФФ / DIGITAL EVOLUTION</p>
+          <h1>
+            Семь точек
+            <br />
+            роста сайта
+          </h1>
+          <p class="intro-copy">
+            Интерактивная презентация решений для руководства и команды
+          </p>
+        </div>
+
+        <article class="proposal" id="proposal" aria-live="polite"></article>
+      </section>
+
+      <footer class="controls">
+        <div class="controls__hint">
+          <span class="mouse" aria-hidden="true"><i></i></span>
+          Свайпайте или тяните
+        </div>
+
+        <nav
+          class="pagination"
+          id="pagination"
+          aria-label="Перейти к предложению"
+        ></nav>
+
+        <div class="arrows">
+          <button
+            type="button"
+            id="previous"
+            aria-label="Предыдущее предложение"
+          >
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              class="arrow arrow--left"
+            >
+              <path d="M5 12h14M14 6l6 6-6 6"></path>
+            </svg>
+          </button>
+          <button type="button" id="next" aria-label="Следующее предложение">
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="arrow">
+              <path d="M5 12h14M14 6l6 6-6 6"></path>
+            </svg>
+          </button>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
