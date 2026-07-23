@@ -1,11 +1,19 @@
 const proposals = [
   {
     id: "01",
-    label: "Первое направление",
-    title: "Пространство для предложения № 1",
+    label: "Клиентский сервис",
+    title: "Личный кабинет клиента",
     summary:
-      "Здесь появится суть первого улучшения: коротко, убедительно и с акцентом на эффект для бизнеса и клиента.",
-    details: ["Проблема", "Решение", "Результат"],
+      "После заявки клиент получает персональное пространство, где видит весь процесс строительства и важную информацию по объекту в одном месте.",
+    details: [
+      "Этап строительства",
+      "Фотографии объекта",
+      "Документы",
+      "Договор",
+      "Платежи",
+      "График работ",
+    ],
+    status: "Концепция сформирована",
     image: "/assets/hero.webp",
   },
   {
@@ -109,7 +117,7 @@ function render() {
     <div class="proposal__image">
       <img src="${slide.image}" alt="" draggable="false" />
       <span class="proposal__index">${slide.id}</span>
-      <span class="proposal__status"><i></i>Готово к наполнению</span>
+      <span class="proposal__status"><i></i>${slide.status || "Готово к наполнению"}</span>
     </div>
     <div class="proposal__body">
       <p class="proposal__label">${slide.label}</p>
