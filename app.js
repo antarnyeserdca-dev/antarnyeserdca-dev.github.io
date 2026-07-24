@@ -110,7 +110,7 @@ const proposals = [
       "Доверие через факты",
     ],
     status: "Концепция сформирована",
-    image: "/assets/russia-map.svg",
+    image: "/assets/russia-map.svg?v=2",
   },
 ];
 
@@ -122,7 +122,15 @@ const pagination = document.querySelector("#pagination");
 const previous = document.querySelector("#previous");
 const next = document.querySelector("#next");
 
-let active = 0;
+const requestedSlide = Number(
+  new URLSearchParams(window.location.search).get("slide"),
+);
+let active =
+  Number.isInteger(requestedSlide) &&
+  requestedSlide >= 1 &&
+  requestedSlide <= proposals.length
+    ? requestedSlide - 1
+    : 0;
 let pointerStart = null;
 let dragOffset = 0;
 let wheelLocked = false;

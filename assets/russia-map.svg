@@ -24,17 +24,4 @@
     <circle cx="533" cy="335" r="7"/>
     <circle cx="624" cy="426" r="7"/>
   </g>
-  <g font-family="Arial, sans-serif">
-    <text x="62" y="104" fill="#D5B38E" font-size="16" font-weight="700" letter-spacing="4">ГЕОГРАФИЯ RUBKOFF</text>
-    <text x="62" y="150" fill="#EDF5F6" font-size="30" font-weight="400">Строим по всей России</text>
-    <g transform="translate(62 664)">
-      <rect width="596" height="150" rx="2" fill="#EDF5F6" fill-opacity=".06" stroke="#EDF5F6" stroke-opacity=".22"/>
-      <text x="30" y="42" fill="#EDF5F6" fill-opacity=".62" font-size="13" letter-spacing="2">КАРТА ОБЪЕКТОВ</text>
-      <circle cx="38" cy="87" r="8" fill="#D5B38E"/>
-      <text x="58" y="93" fill="#EDF5F6" font-size="16">Активные стройки</text>
-      <circle cx="270" cy="87" r="6" fill="#EDF5F6"/>
-      <text x="287" y="93" fill="#EDF5F6" font-size="16">Готовые дома</text>
-      <text x="30" y="126" fill="#EDF5F6" fill-opacity=".55" font-size="13">Нажмите на точку, чтобы открыть объект</text>
-    </g>
-  </g>
 </svg>
